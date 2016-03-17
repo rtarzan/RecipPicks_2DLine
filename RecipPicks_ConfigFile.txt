@@ -1,0 +1,13 @@
+fname_prearrival: 'PickFile'
+arrivaltypelist: '1, 2, 3'
+fname_preshot: 'shotnum'
+shotnumlist: '02, 03, 04, 05, 06, 07, 08, 09, 10, 12, 13, 14, 15, 17'
+fname_preftype: 'unfiltered'
+append_RIGHT_LEFT: True
+fftype: '.txt'
+rpname_prarrival: 'RecipPickFile'
+rpname_preshot: 'shot'
+rpftype: '.txt'
+latkm: 110.9
+longkm: 94.5
+shotlocfile: 'RecipPicks_ShotLocFile.txt'

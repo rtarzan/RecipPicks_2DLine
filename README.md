@@ -7,15 +7,19 @@ Files with picks can have many rows/columns, but each row should be a different 
 Pick files need to be named consistently, with naming convention specified in the RecipPicks_ConfigFile.txt (sample included in repository). For the sample provided, a file of picks from shot 05 with arrival type 2 (would refer to, for example, picks of PmP mantle reflections):
 
 [fname_prearrival][arrivaltype][fname_preshot][shotnumber][fname_preftype][RIGHT or LEFT only if append_RIGHT_LEFT is marked True, use False to not include][fftype]
+
 PickFile2shotnum05unfilteredRIGHT.txt : for positive source-receiver offsets
+
 PickFile2shotnum05unfilteredLEFT.txt : for negative soutce-receiver offsets
 
 Similarly, the output reciprocal pick files will follow a naming convention specified in the RecipPicks_ConfigFile.txt:
 
 [rpname_prarrival][arrivaltype][rpname_preshot][shotnumber][rpftype]
+
 RecipPickFile2shot05.txt
 
 A file of shot locations of latitude, longitude needs to be provided in the [shotlocfile], formatted equivalently to the sample in this directory:
+
 shotnum: '[latitude], [longitude]'
 
 Each shot number in the variable [shotnumlist] in the configuration file should have a location provided in the shot location file. 
